@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  
+
+
+/*main*/
+.row {
+  display: flex;
+  
+}
+
+.column {
+  flex: 50%;
+  flex-flow: column wrap;
+}
+.column2 {
+  flex: 10%;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+.main {
+  margin-top: 13em;
+  padding-left: 10em;
+}
+.hero_title {
+  font-size: 4em;
+  margin-bottom: -1em;
+  color: rgb(86, 83, 83);
+}
+.hero_title1 {
+  font-size: 5em;
+}
+/*work*/
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+  }
+  
+  .rowss {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .highlights {
+    padding: 10px;
+  }
+  .section-content {
+    position: relative;
+    height: 300px; /* Set the desired fixed height */
+    overflow:scroll;
+  }
+
+  .tech{
+    display: inline-block;
+    padding-right: 10px;
+    color: rgb(86, 83, 83);
+  }
+
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns, adjust as needed */
+    grid-gap: 1em; /* Spacing between grid items */
+    padding-right: 0em;
+  }
+  
+  .icon {
+    
+    margin: 2em;
+    height: 1em; /* Set the desired height */
+    width: 1em;
+  }
+  
+  
+  .scrollable-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y:hidden;
+    padding: 10px;
+    
+    background: linear-gradient(
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 10%,
+      rgba(255, 255, 255, 1) 90%,
+      rgba(255, 255, 255, 0) 100%
+    );}
+  
+    .section-content::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar width */
+        height: 0; /* Remove scrollbar height */
+      } 
+  
+  
+  #experience-section,
+  #project-section,
+  #techstack-section {
+    padding-left: 30px;
+  }
+  
+
+/*contact*/
+.Cn {
+  margin-top: 8em;
+}
+.image {
+  padding-left: 1em;
+  margin-bottom: 0.3\em;
+}
+.svg{
+    padding-right: 3em;
+    height: 5em; /* Set the desired height */
+    width: 5em;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* CSS rules specific to mobile devices */
+
+  .column2 {
+    margin-top: 8em;
+  }
+  .row {
+    display: inline;
+  }
+  .main {
+    margin-top: 10em;
+    padding-left: 0em;
+  }
+  .hero_title {
+    font-size: 3em;
+    margin-bottom: -1em;
+    padding-left: 0.5em;
+    color: rgb(86, 83, 83);
+  }
+  .hero_title1 {
+    font-size: 3em;
+    padding-left: 0.5em;
+  }
+  .Cn {
+    margin-top: 8em;
+    padding-left: 2em;
+  }
+ 
+  .svg{
+    padding-right: 3em;
+    height: 3em; /* Set the desired height */
+    width: 3em;
+ 
+    
+}
+
+ 
+
+  
+.container {
+    display: flex;
+    flex-direction: column;
+ 
+    padding-left: 1em;
+  }
+  .section-content{
+    font-size: 1em;
+   
+    width:min-content;
+
+  }
+}
