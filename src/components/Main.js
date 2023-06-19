@@ -8,8 +8,8 @@ function Main() {
     <div className="main">
     <div class="row">
       <div class="column">
-        <h1 className="hero_title">I am</h1>
-        <h1 className="hero_title1">SHUBHAM</h1>
+        <h1 className="hero_title">[{I am</h1>
+        <h1 className="hero_title1">SHUBHAM}]</h1>
         <div className="Cn">
     <Contact />
     </div>
